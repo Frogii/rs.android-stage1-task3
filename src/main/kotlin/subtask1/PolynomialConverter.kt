@@ -12,7 +12,7 @@ class PolynomialConverter {
         }
         if (numbers.isEmpty()) return null
         else if (!numbers.contains(0)) {
-            var exponent = list.size - 1
+            var exponent = list.size-1
             for (i in list.indices) {
                 if (!list[i].contains('-') && i != 0) {
                     list[i] = " + " + list[i]
